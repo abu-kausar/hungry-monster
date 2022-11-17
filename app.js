@@ -23,9 +23,6 @@ button.addEventListener('click', function () {
             `
             foodDiv.innerHTML = foodInfo;
             foodsDiv.appendChild(foodDiv);
-
-
-
         });
 
 
