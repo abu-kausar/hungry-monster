@@ -3,3 +3,26 @@
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 10px;
 }
+#food-name{
+    margin-top: 20px;
+    font-size: 15px;
+}
+#food-image{
+    width: 200px;
+}
+.food{
+    border: 1px solid goldenrod;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+    background-color: aliceblue;
+}
+#food-details img{
+    width: 200px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+}
+#food-details{
+    margin-left: 20px;
+}
