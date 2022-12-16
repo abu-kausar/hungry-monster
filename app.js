@@ -1,8 +1,9 @@
 const button = document.getElementById('button');
 const inputValue = document.getElementById('input-food');
+console.log(inputValue)
 
 button.addEventListener('click', function () {
-    fetch('www.themealdb.com/api/json/v1/1/search.php?s=' + inputValue.value)
+    fetch('https://www.themealdb.com/api/json/v1/1/search.php?s=' + inputValue.value)
         .then(res => res.json())
         .then(data => displayFoods(data))
 
